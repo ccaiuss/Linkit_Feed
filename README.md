@@ -67,3 +67,22 @@ In the Ubuntu system, open the *Terminal* application and type the following com
 
 10. You can use this file to do the firmware upgrade through the Web UI. Or rename it to `lks7688.img` for upgrading through a USB drive.
 
+sudo apt-get install git
+
+git clone git://git.openwrt.org/14.07/openwrt.git
+
+./scripts/feeds update -a
+
+./scripts/feeds install -a
+
+./scripts/feeds update -i
+
+make clean
+
+make dirclean
+
+make distclean
+
+make menuconfig
+
+make -j 3
