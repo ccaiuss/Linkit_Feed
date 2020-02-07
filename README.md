@@ -5,7 +5,7 @@ This feeds holds the SDK wifi driver and the config/meta package for the LinkIt 
 
 # Build the firmware from sources
 
-This section describes how to build the firmware for LinkIt Smart 7688 and LinkIt Smart 7688 Duo from source codes.
+This section describes how to build the firmware for LinkIt Smart 7688 and LinkIt Smart 7688 Duo from source codes.   
 
 
 ### Host environment
