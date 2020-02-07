@@ -81,7 +81,7 @@ make clean
 
 make dirclean
 
-make distclean
+make distclean   //clean all things
 
 make menuconfig
 
